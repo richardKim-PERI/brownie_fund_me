@@ -9,6 +9,7 @@ def fund():
     print(f"The current entry fee is {entrance_fee}")
     print("Funding")
     fund_me.fund({"from": account, "value": entrance_fee})
+    print("Funded!")
 
 def withdraw():
     fund_me = FundMe[-1]
